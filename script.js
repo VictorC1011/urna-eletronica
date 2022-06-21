@@ -9,6 +9,8 @@ let etapaAtual = 0;
 let numero = '';
 let votoBranco = false;
 
+numeros.style.display = 'flex'
+
 function comecarEtapa() {
     let etapa = etapas[etapaAtual];
 
